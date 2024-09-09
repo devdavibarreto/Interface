@@ -1,4 +1,4 @@
-import {Home as HomeIcon, Search, Library, ChevronLeft, ChevronRight} from "lucide-react";
+import {Home as HomeIcon, Search, Library, ChevronLeft, ChevronRight,Play} from "lucide-react";
 import Image from 'next/image';
 
 export default function Home() {
@@ -50,29 +50,35 @@ export default function Home() {
       <h1 className="font-semibold text-3xl mt-10">Good Night</h1>
 
       <div className="grid grid-cols-3 gap-4 mt-4">
-        <a href=""className="bg-white/10 rounded flex items-center gap-4 overflow-hidden hover:bg-white/20 transition-colors shadow shadow-transparent hover:shadow-white/40  "> 
+        <a href=""className="bg-white/5 group rounded flex items-center gap-4 overflow-hidden hover:bg-white/20 transition-colors shadow shadow-transparent hover:shadow-white/20  "> 
         <Image src="/Colosssenses.jpg" width={104} height={104} alt="Colossenses é suas linhas de amor" />
         <strong>Colossenses</strong>
+        <button className="w-12 h-12 flex items-center justify-center pl-1 rounded-full bg-green-400 text-black ml-auto mr-8 invisible group-hover:visible"><Play/></button>
         </a>
-        <a href=""className="bg-white/10 rounded flex items-center gap-4 overflow-hidden hover:bg-white/20 transition-colors shadow shadow-transparent hover:shadow-white/40   "> 
+        <a href=""className="bg-white/5 group rounded flex items-center gap-4 overflow-hidden hover:bg-white/20 transition-colors shadow shadow-transparent hover:shadow-white/20  "> 
         <Image src="/Colosssenses.jpg" width={104} height={104} alt="Colossenses é suas linhas de amor" />
         <strong>Colossenses</strong>
+        <button className="w-12 h-12 flex items-center justify-center pl-1 rounded-full bg-green-400 text-black ml-auto mr-8 invisible group-hover:visible"><Play/></button>
         </a>
-        <a href=""className="bg-white/10 rounded flex items-center gap-4 overflow-hidden hover:bg-white/20 transition-colors shadow shadow-transparent hover:shadow-white/40   "> 
+        <a href=""className="bg-white/5 group rounded flex items-center gap-4 overflow-hidden hover:bg-white/20 transition-colors shadow shadow-transparent hover:shadow-white/20  "> 
         <Image src="/Colosssenses.jpg" width={104} height={104} alt="Colossenses é suas linhas de amor" />
         <strong>Colossenses</strong>
+        <button className="w-12 h-12 flex items-center justify-center pl-1 rounded-full bg-green-400 text-black ml-auto mr-8 invisible group-hover:visible"><Play/></button>
         </a>
-        <a href=""className="bg-white/10 rounded flex items-center gap-4 overflow-hidden hover:bg-white/20 transition-colors shadow shadow-transparent hover:shadow-white/40  "> 
+        <a href=""className="bg-white/5 group rounded flex items-center gap-4 overflow-hidden hover:bg-white/20 transition-colors shadow shadow-transparent hover:shadow-white/20  "> 
         <Image src="/Colosssenses.jpg" width={104} height={104} alt="Colossenses é suas linhas de amor" />
         <strong>Colossenses</strong>
+        <button className="w-12 h-12 flex items-center justify-center pl-1 rounded-full bg-green-400 text-black ml-auto mr-8 invisible group-hover:visible"><Play/></button>
         </a>
-        <a href=""className="bg-white/10 rounded flex items-center gap-4 overflow-hidden hover:bg-white/20 transition-colors shadow shadow-transparent hover:shadow-white/40  "> 
+        <a href=""className="bg-white/5 group rounded flex items-center gap-4 overflow-hidden hover:bg-white/20 transition-colors shadow shadow-transparent hover:shadow-white/20  "> 
         <Image src="/Colosssenses.jpg" width={104} height={104} alt="Colossenses é suas linhas de amor" />
         <strong>Colossenses</strong>
+        <button className="w-12 h-12 flex items-center justify-center pl-1 rounded-full bg-green-400 text-black ml-auto mr-8 invisible group-hover:visible"><Play/></button>
         </a>
-        <a href=""className="bg-white/10 rounded flex items-center gap-4 overflow-hidden hover:bg-white/20 transition-colors shadow shadow-transparent hover:shadow-white/40   "> 
+        <a href=""className="bg-white/5 group rounded flex items-center gap-4 overflow-hidden hover:bg-white/20 transition-colors shadow shadow-transparent hover:shadow-white/20  "> 
         <Image src="/Colosssenses.jpg" width={104} height={104} alt="Colossenses é suas linhas de amor" />
         <strong>Colossenses</strong>
+        <button className="w-12 h-12 flex items-center justify-center pl-1 rounded-full bg-green-400 text-black ml-auto mr-8 invisible group-hover:visible"><Play/></button>
         </a>
 
       </div>
