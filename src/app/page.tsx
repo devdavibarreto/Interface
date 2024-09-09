@@ -1,4 +1,4 @@
-import {Home as HomeIcon, Search, Library, ChevronLeft, ChevronRight,Play} from "lucide-react";
+import {Home as HomeIcon, Search, Library, ChevronLeft, ChevronRight,Play, Shuffle, SkipBack, SkipForward, Repeat} from "lucide-react";
 import Image from 'next/image';
 
 export default function Home() {
@@ -117,17 +117,25 @@ export default function Home() {
     </main>
   </div>
   <footer className=" bg-zinc-800 border-t border-zinc-700 p-6 flex items-center justify-between">
-   <div className="flex items-center gap-2">
-   <Image src="/Colosssenses.jpg"  width={48} height={48} alt="Colossenses é suas linhas de amor" />
+   <div className="flex items-center gap-3">
+   <Image src="/Colosssenses.jpg"  width={56} height={56} alt="Colossenses é suas linhas de amor" />
  
    <div className="flex flex-col ">
     <strong className="font-normal">Colossenses é suas linhas de amor</strong>
-    <span className="text-xs text-zinc-500">Marcos theles</span>
+    <span className="text-xs text-zinc-400">Marcos theles</span>
    </div>
    </div>
-   <div>
 
+   <div className="flex flex-col items-center">
+<div className="flex items-center gap-4">
+  <Shuffle size={20} className=" text-zinc-200"/>
+  <SkipBack size={20} className=" text-zinc-200" />
+  <button  className="w-10 h-10 flex items-center justify-center pl-1 rounded-full bg-white text-black"><Play/></button>
+  <SkipForward  size={20} className=" text-zinc-200"/>
+  <Repeat  size={20} className=" text-zinc-200"/>
+</div>
    </div>
+
    <div>
 
    </div>
