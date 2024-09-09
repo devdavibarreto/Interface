@@ -1,4 +1,4 @@
-import {Home as HomeIcon, Search, Library, ChevronLeft, ChevronRight,Play, Shuffle, SkipBack, SkipForward, Repeat} from "lucide-react";
+import {Home as HomeIcon, Search, Library, ChevronLeft, ChevronRight,Play, Shuffle, SkipBack, SkipForward, Repeat, Mic2, LayoutList, Laptop2, Volume, Maximize2} from "lucide-react";
 import Image from 'next/image';
 
 export default function Home() {
@@ -89,55 +89,87 @@ export default function Home() {
 <a href="" className="bg-white/5  p-3   rounded-md flex flex-col gap-2 hover:bg-white/10">
 <Image src="/Colosssenses.jpg" className="w-full " width={1920} height={1080} alt="Colossenses é suas linhas de amor" />
 <strong className="font-semibold">Colossenses</strong>
-<span className="text-sm text-zinc-400">Marcos Teles</span>
+<span className="text-sm text-zinc-400">Marcos Telles</span>
 
 </a>
 <a href="" className="bg-white/5  p-3   rounded-md flex flex-col gap-2 hover:bg-white/10">
 <Image src="/Colosssenses.jpg" className="w-full " width={1920} height={1080} alt="Colossenses é suas linhas de amor" />
 <strong>Colossenses</strong>
-<span className="text-sm text-zinc-400">Marcos Teles</span>
+<span className="text-sm text-zinc-400">Marcos Telles</span>
 </a>
 <a href="" className="bg-white/5  p-3   rounded-md flex flex-col gap-2 hover:bg-white/10">
 <Image src="/Colosssenses.jpg" className="w-full " width={1920} height={1080} alt="Colossenses é suas linhas de amor" />
 <strong>Colossenses</strong>
-<span className="text-sm text-zinc-400">Marcos Teles</span>
+<span className="text-sm text-zinc-400">Marcos Telles</span>
 </a>
 <a href="" className="bg-white/5  p-3   rounded-md flex flex-col gap-2 hover:bg-white/10">
 <Image src="/Colosssenses.jpg" className="w-full " width={1920} height={1080} alt="Colossenses é suas linhas de amor" />
 <strong>Colossenses</strong>
-<span className="text-sm text-zinc-400">Marcos Teles</span>
+<span className="text-sm text-zinc-400">Marcos Telles</span>
 </a>
 <a  href="" className="bg-white/5  p-3   rounded-md flex flex-col gap-2 hover:bg-white/10">
 <Image src="/Colosssenses.jpg" className="w-full" width={1920} height={1080} alt="Colossenses é suas linhas de amor" />
 <strong>Colossenses</strong>
-<span className="text-sm text-zinc-400">Marcos Teles</span>
+<span className="text-sm text-zinc-400">Marcos Telles</span>
 </a>
+<a  href="" className="bg-white/5  p-3   rounded-md flex flex-col gap-2 hover:bg-white/10">
+<Image src="/Colosssenses.jpg" className="w-full" width={1920} height={1080} alt="Colossenses é suas linhas de amor" />
+<strong>Colossenses</strong>
+<span className="text-sm text-zinc-400">Marcos Telles</span>
+</a>
+<a  href="" className="bg-white/5  p-3   rounded-md flex flex-col gap-2 hover:bg-white/10">
+<Image src="/Colosssenses.jpg" className="w-full" width={1920} height={1080} alt="Colossenses é suas linhas de amor" />
+<strong>Colossenses</strong>
+<span className="text-sm text-zinc-400">Marcos Telles</span>
+</a>
+<a  href="" className="bg-white/5  p-3   rounded-md flex flex-col gap-2 hover:bg-white/10">
+<Image src="/Colosssenses.jpg" className="w-full" width={1920} height={1080} alt="Colossenses é suas linhas de amor" />
+<strong>Colossenses</strong>
+<span className="text-sm text-zinc-400">Marcos Telles</span>
+</a>
+
 
       </div>
     </main>
   </div>
-  <footer className=" bg-zinc-800 border-t border-zinc-700 p-6 flex items-center justify-between">
+  <footer className=" bg-zinc-900 border-t border-zinc-700 p-6 py-4 flex items-center justify-between">
    <div className="flex items-center gap-3">
    <Image src="/Colosssenses.jpg"  width={56} height={56} alt="Colossenses é suas linhas de amor" />
  
    <div className="flex flex-col ">
-    <strong className="font-normal">Colossenses é suas linhas de amor</strong>
+    <strong className="font-normal">Colossenses </strong>
+    
     <span className="text-xs text-zinc-400">Marcos theles</span>
    </div>
    </div>
 
-   <div className="flex flex-col items-center">
-<div className="flex items-center gap-4">
+   <div className="flex flex-col items-center gap-2">
+<div className="flex items-center gap-6">
   <Shuffle size={20} className=" text-zinc-200"/>
   <SkipBack size={20} className=" text-zinc-200" />
   <button  className="w-10 h-10 flex items-center justify-center pl-1 rounded-full bg-white text-black"><Play/></button>
   <SkipForward  size={20} className=" text-zinc-200"/>
   <Repeat  size={20} className=" text-zinc-200"/>
 </div>
+<div className="flex items-center gap-2">
+<span className="text-xs text-zinc-500">0:31</span>
+<div className="h-1 rounded-full w-96 bg-zinc-600">
+  <div className="bg-zinc-200 w-40 h-1 rounded-full"></div>
+</div>
+<span className="text-xs text-zinc-500">2:31</span>
+</div>
    </div>
-
-   <div>
-
+   <div className="flex items-center gap-4">
+    <Mic2 size={20}/>
+    <LayoutList size={20}/>
+    <Laptop2 size={20}/>
+<div className="flex items-center gap-2">
+  <Volume size={20}/>
+  <div className="h-1 rounded-full w-20 bg-zinc-600">
+  <div className="bg-zinc-200 w-5 h-1 rounded-full"></div>
+</div>
+</div>
+<Maximize2 size={20}/>
    </div>
   </footer>
 </div>
